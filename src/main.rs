@@ -1,4 +1,4 @@
-use iced::{Element, Settings, run};
+:quick-xmluse iced::{Element, Settings, run};
 use iced::widget::{button, column, text, Column};
 
 #[derive(Default)]
