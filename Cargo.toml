@@ -5,3 +5,15 @@ edition = "2024"
 
 [dependencies]
 iced = "0.13.1"
+
+[profile]
+
+[profile.wasm-dev]
+inherits = "dev"
+opt-level = 1
+
+[profile.server-dev]
+inherits = "dev"
+
+[profile.android-dev]
+inherits = "dev"
