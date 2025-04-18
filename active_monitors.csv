@@ -1,0 +1,14 @@
+ItemKey,Label,QueryName,QueryDamage,StartTime,CurrentTime,ElapsedSeconds,TotalRequested,InitialStock,CurrentStock,Produced,Remaining,CPUName,CancellationAttempted
+"gregtech:gt.metaitem.03/32030","Monocrystalline Silicon Boule","gregtech:gt.metaitem.03",32030,2025-04-18 08:05:03,2025-04-18 08:07:34,151,1,0,0,0,1,"",false
+"dreamcraft:item.MoonStoneDust","Moon Stone Dust","dreamcraft:item.MoonStoneDust",0,2025-04-18 08:07:04,2025-04-18 08:07:34,30,144,4976,5120,144,0,"",false
+"gregtech:gt.metaitem.01/2017","Sodium Dust","gregtech:gt.metaitem.01",2017,2025-04-18 08:07:09,2025-04-18 08:07:34,25,512,61546,62060,514,0,"",false
+"gregtech:gt.metaitem.01/11081","Tungsten Ingot","gregtech:gt.metaitem.01",11081,2025-04-18 08:03:13,2025-04-18 08:07:34,261,10,49990,49924,0,10,"",false
+"gregtech:gt.metaitem.01/11316","Tungstensteel Ingot","gregtech:gt.metaitem.01",11316,2025-04-18 08:06:17,2025-04-18 08:07:34,77,100,49836,49799,0,100,"",false
+"gregtech:gt.metaitem.01/2819","Graphene Dust","gregtech:gt.metaitem.01",2819,2025-04-18 08:02:11,2025-04-18 08:07:34,323,128,64,64,0,128,"",false
+"gregtech:gt.metaitem.03/32190","Gallium Arsenide Crystal","gregtech:gt.metaitem.03",32190,2025-04-18 08:06:13,2025-04-18 08:07:34,81,8,192,200,8,0,"",false
+"gregtech:gt.metaitem.03/32031","Phosphorus doped Monocrystalline Silicon Boule","gregtech:gt.metaitem.03",32031,2025-04-18 08:05:55,2025-04-18 08:07:34,99,2,998,1013,15,0,"",false
+"gregtech:gt.metaitem.01/32644","Electric Piston (IV)","gregtech:gt.metaitem.01",32644,2025-04-18 08:06:19,2025-04-18 08:07:34,75,10,64,64,0,10,"",false
+"minecraft:sand","Sand","minecraft:sand",0,2025-04-18 08:06:41,2025-04-18 08:07:34,53,600,0,67,67,533,"",false
+"gregtech:gt.metaitem.01/32604","Electric Motor (IV)","gregtech:gt.metaitem.01",32604,2025-04-18 08:05:51,2025-04-18 08:07:34,103,10,64,64,0,10,"",false
+"gregtech:gt.Quad_Thoriumcell","Quad Fuel Rod (Thorium)","gregtech:gt.Quad_Thoriumcell",0,2025-04-18 08:06:20,2025-04-18 08:07:34,74,10,1,1,0,10,"",false
+"bartworks:gt.bwMetaGeneratedingot/88","Rhodium-Plated Palladium Ingot","bartworks:gt.bwMetaGeneratedingot",88,2025-04-12 19:43:50,2025-04-18 08:07:34,476624,64,192,1280,1088,0,"",true

@@ -1,35 +1,36 @@
-:quick-xmluse iced::{Element, Settings, run};
-use iced::widget::{button, column, text, Column};
-
-#[derive(Default)]
-struct Counter {
-    value: i64,
+use dioxus::prelude::*;
+use polars::prelude::*;
+use polars_io::prelude::*;
+use std::fs::File;
+fn main() {
+    dioxus::launch(App);
 }
 
-#[derive(Debug, Clone, Copy)]
-enum Message {
-    Increment,
-    Decrement,
+fn read_csv_now(file_name: &str) -> PolarsResult<DataFrame> {
+    CsvReadOptions::default()
+        .with_has_header(true)
+        .try_into_reader_with_file_path(Some(file_name.into()))?
+        .finish()
 }
 
-fn update(counter: &mut Counter, message: Message) {
-    match message {
-        Message::Increment => counter.value += 1,
-        Message::Decrement => counter.value -= 1,
+#[component]
+fn App() -> Element {
+    rsx! { "Culoh"};
+
+    let show_title: bool = true;
+
+    rsx! {
+        {show_title.then(|| rsx!{"Theme"})}
+
+        ul {
+            {(0..5).map(|i| rsx! { "{i}" })}
+        }
+
+
+        ul {
+
+            {{0..5}.map(|i| rsx!{"{i}"})}
+        }
+
     }
-}
-
-fn view(counter: &Counter) -> Element<Message> {
-
-    column![
-        text("Shit!"),
-        button("+").on_press(Message::Increment),
-        text(counter.value),
-        button("-").on_press(Message::Decrement),
-    ]
-        .into()
-}
-
-fn main() -> iced::Result {
-    run("Fuck given", update, view)
 }
